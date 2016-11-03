@@ -1,0 +1,81 @@
+/*서버리스틑에서 검색하는 css*/
+.custom-search-input{
+    padding: 1px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+.custom-search-input select{
+	margin: 2px 0 0 0;
+    border: 0;
+    box-shadow: none;
+}
+.custom-search-input input{
+	width: 50%;
+    border: 0;
+    box-shadow: none;
+}
+
+.custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+ 
+.custom-search-input .icon-search{
+    font-size: 30px;
+}
+ 
+
+/*서버정보보기에서 테이블 제목 강조*/
+.table-condensed .subtitle{
+	background-color: #f2f2f2
+}
+
+.table-hover thead{
+	background-color: #e6e6e6
+}
+
+/*로딩모달 크기 및 위치 */
+.modal-dialog.loadingModal {
+  width: 20%;
+  height: 20%;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-content.loadingModal {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0; 
+}
+
+/*모달 가운데 위치 .modal-center*/
+.modal-center {
+  text-align: center;
+}
+
+/* -------------- */
+@media screen and (min-width: 768px) { 
+  .modal.modal-center:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog.modal-center {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle; 
+}
+
+.modal-body img {
+    max-width: auto;
+    height: 100px;
+}
